@@ -3,7 +3,7 @@
     <div class="custom-checkbox">
       <input
         type="checkbox"
-        class="checkbox"
+        class="checkbox" 
         :id="id"
         :checked="isDone"
         @change="$emit('checkbox-changed')"
